@@ -12,3 +12,14 @@ func PrintForLoop(){
     }
 }
 
+//Step 2
+func PrintGotoLoop(){
+    
+    i:=0
+    Loop:
+        fmt.Println(i)
+    if i<10 {
+        i++
+        goto Loop
+    }
+}

@@ -19,8 +19,14 @@ func PrintFizzBuzz(){
     for i:=0;i<100;i++{
 
          p = false
+
          if i%FIZZ==0 {
              fmt.Println("FIZZ")
+             p = true
+         }
+
+         if i%BUZZ==0 {
+             fmt.Println("BUZZ")
              p = true
          }
     }

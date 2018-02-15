@@ -34,7 +34,7 @@ func PrintFizzBuzz(){
              fmt.Printf("%v",i)
          }
 
-
+         fmt.Println()
     }
     
 }

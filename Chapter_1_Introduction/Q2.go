@@ -29,6 +29,12 @@ func PrintFizzBuzz(){
              fmt.Println("BUZZ")
              p = true
          }
+
+         if !p {
+             fmt.Printf("%v",i)
+         }
+
+
     }
     
 }

@@ -27,7 +27,7 @@ func PrintGotoLoop(){
 //Step 3
 func PrintLoopArray(){
     
-    var arr = [10]int
+    var arr [10]int
     for i:=0;1<10;i++{
         arr[i]=i
     }

@@ -21,12 +21,12 @@ func PrintFizzBuzz(){
          p = false
 
          if i%FIZZ==0 {
-             fmt.Println("FIZZ")
+             fmt.Printf("FIZZ")
              p = true
          }
 
          if i%BUZZ==0 {
-             fmt.Println("BUZZ")
+             fmt.Printf("BUZZ")
              p = true
          }
 

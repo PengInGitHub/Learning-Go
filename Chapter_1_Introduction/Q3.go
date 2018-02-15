@@ -5,8 +5,11 @@ import (
 
 )
 
-func Print(){
+func PrintStringA(){
     
-    
-    fmt.Println()
+    str := "A"
+    for i:=0;i<100;i++ {
+        fmt.Printf("%s\n",str)   
+        str = str + "A" 
+    }
 }

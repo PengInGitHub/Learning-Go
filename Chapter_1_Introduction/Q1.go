@@ -28,10 +28,10 @@ func PrintGotoLoop(){
 func PrintLoopArray(){
     
     var arr [10]int
-    for i:=0;1<10;i++{
+    for i:=0;i<10;i++{
         arr[i]=i
     }
-    fmt.Println(arr)
+    fmt.Printf("%v", arr)
 }
 
 

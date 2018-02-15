@@ -17,7 +17,12 @@ func PrintFizzBuzz(){
     var p bool //to judge wether to print the values
     
     for i:=0;i<100;i++{
-         
+
+         p = false
+         if i%FIZZ==0 {
+             fmt.Println("FIZZ")
+             p = true
+         }
     }
     
 }

@@ -5,8 +5,8 @@ import (
 
 )
 
-func Print(){
-    
+func PrintForLoop(){
     
     fmt.Println()
+
 }

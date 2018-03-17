@@ -1,7 +1,9 @@
 package main
 
-func main() {
+import "fmt"
 
-    PrintSliceAvg([]float64{3.4,9.8})
+func main() {
+    input := PrintSliceAvg([]float64{3.4,9.8})
+    fmt.Println(input)
     
 }

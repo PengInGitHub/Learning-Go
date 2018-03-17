@@ -4,9 +4,11 @@ import (
 "fmt"
 
 )
+func PlusTwo() func(int) int{
+    return func(x int) int {return x+2}
+}
 
 func PrintFunctionReturnsFunction(){
-    
-    
-    fmt.Println()
+    p2 := PlusTwo()
+    fmt.Printf("%v\n",p2(20))
 }

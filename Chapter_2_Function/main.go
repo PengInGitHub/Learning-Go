@@ -2,6 +2,6 @@ package main
 
 func main() {
 
-    PrintSliceAvg()
+    PrintSliceAvg([]float64{3.4,9.8})
     
 }

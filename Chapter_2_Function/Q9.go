@@ -5,8 +5,8 @@ import (
 
 )
 
-func PrintNumbers(){
-    
-    
-    fmt.Println()
+func PrintNumbers(numbers ... int){
+    for _,d := range numbers{
+        fmt.Println(d)
+    }
 }

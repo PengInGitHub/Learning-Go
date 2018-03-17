@@ -3,5 +3,5 @@ package main
 //import "fmt"
 
 func main() {
-     PrintNumbers()
+     PrintNumbers(2,3,75,43,19,2)
 }

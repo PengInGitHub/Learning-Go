@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    input := PrintSliceAvg([]float64{3.4,9.8})
-    fmt.Println(input)
+    input1,input2 := IntOrdering(5,1)
+    fmt.Println(input1,input2)
     
 }

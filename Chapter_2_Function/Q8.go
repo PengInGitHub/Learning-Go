@@ -21,7 +21,7 @@ func(s *stack) pop() int{
 }
 
 func PrintStack(){
-    
-    
-    fmt.Println()
+    var s stack
+    s.push(25)
+    fmt.Printf("stack:v%\n",s)
 }

@@ -7,7 +7,7 @@ type Stack struct{
 
 func(s *Stack) Push(k int){
     s.data[s.i] = k
-    i++
+    s.i++
 }
 
 func(s *Stack) Pop() (ret int){
@@ -16,8 +16,3 @@ func(s *Stack) Pop() (ret int){
     return ret   
 }
 
-func Print(){
-    
-    
-    fmt.Println()
-}
